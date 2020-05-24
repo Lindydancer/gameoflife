@@ -1,7 +1,7 @@
 # gameoflife - Screensaver running Conway's Game of Life
 
 *Author:* Anders Lindgren<br>
-*Version:* 0.0.0<br>
+*Version:* 0.0.1<br>
 *URL:* [https://github.com/Lindydancer/gameoflife](https://github.com/Lindydancer/gameoflife)<br>
 
 Run Conway's Game of Life, in all windows, using the original
@@ -20,7 +20,7 @@ default, it stops after 1000 generations.
 
 ### Screenshot
 
-![See doc/GameOfLifeDemo.mov for screenshot](doc/GameOfLifeDemo.mov)
+![See doc/GameOfLifeDemo.gif for screenshot](doc/GameOfLifeDemo.gif)
 
 ## Usage
 

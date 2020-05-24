@@ -4,7 +4,7 @@
 
 ;; Author: Anders Lindgren
 ;; Keywords: games
-;; Version: 0.0.0
+;; Version: 0.0.1
 ;; Created: 2017-11-15
 ;; URL: https://github.com/Lindydancer/gameoflife
 
@@ -39,7 +39,7 @@
 ;;
 ;; Screenshot:
 ;;
-;; ![See doc/GameOfLifeDemo.mov for screenshot](doc/GameOfLifeDemo.mov)
+;; ![See doc/GameOfLifeDemo.gif for screenshot](doc/GameOfLifeDemo.gif)
 
 ;; Usage:
 ;;

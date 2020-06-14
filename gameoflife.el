@@ -4,7 +4,7 @@
 
 ;; Author: Anders Lindgren
 ;; Keywords: games
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Created: 2017-11-15
 ;; URL: https://github.com/Lindydancer/gameoflife
 
@@ -265,8 +265,9 @@ When WIN is nil, use the selected window."
          (win first-win))
     (while (progn
              (save-excursion
-               (select-window win)
-               (gameoflife-window win))
+               (unless (window-dedicated-p win)
+                 (select-window win)
+                 (gameoflife-window win)))
              (setq win (next-window win 'not-minibuf t))
              (not (eq win first-win))))
     (select-window orig-win)))

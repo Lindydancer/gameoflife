@@ -1,4 +1,4 @@
-;;; gameoflife-screenshot-setup.el --- Setup Emacs for gameoflife screenshot
+;;; gameoflife-screenshot-setup.el --- Setup gameoflife screenshot -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2020  Anders Lindgren
 

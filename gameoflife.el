@@ -1,10 +1,10 @@
-;;; gameoflife.el --- Screensaver running Conway's Game of Life
+;;; gameoflife.el --- Screensaver running Conway's Game of Life. -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2017, 2020  Anders Lindgren
+;; Copyright (C) 2017,2020,2024,2025  Anders Lindgren
 
 ;; Author: Anders Lindgren
 ;; Keywords: games
-;; Version: 0.0.2
+;; Version: 0.0.3
 ;; Created: 2017-11-15
 ;; URL: https://github.com/Lindydancer/gameoflife
 
@@ -337,9 +337,6 @@ number of generations to run."
 ;;;###autoload
 (define-minor-mode gameoflife-screensaver-mode
   "Run Conway's Game of Life when Emacs has been idle for a while."
-  nil
-  nil
-  nil
   :global t
   (when (timerp gameoflife-screensaver-timer)
     (cancel-timer gameoflife-screensaver-timer))
